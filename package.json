@@ -1,0 +1,15 @@
+{
+  "name": "opencode-v2-open-github-pr",
+  "version": "1.0.0",
+  "description": "Add /open-github-pr, which opens the GitHub PR for the current branch in the browser.",
+  "type": "module",
+  "exports": {
+    "./tui": "./tui.js"
+  },
+  "files": [
+    "tui.js"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}
